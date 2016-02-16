@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+/*@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700|Lato:400,700,300);
+@import url(../bower_components/font-awesome/css/font-awesome.min.css);*/
+
+@font-face {
+  font-family: "LINOWRITE";
+  src: url(../fonts/LINOWRITE_2.ttf);
+}
+.container {
+  position: relative;
+  text-align: center;
+}
+.center {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+}
+body {
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 694px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+  /*opacity: 0.3;*/
+}
+img {
+  margin: 0 auto;
+      padding-top: 36px;
+}
+.img-responsive {
+  display: block;
+  max-width: 450px;
+  height: auto;
+}
+h3 {
+  font-family: LINOWRITE;
+}
+h1 {
+  margin: 105px 0 56px;
+  font-family: LINOWRITE;
+}
+.plr20 {
+  padding: 0px 200px;
+  line-height: 24px;
+  margin: 0px 36px;
+}
+.plr21 {
+  padding: 30px 200px 10px;
+  line-height: 24px;
+  margin: 12px 50px 0;
+}
+button {
+  background-color: #C5C52A;
+  padding: 4px 8px;
+  ;
+  border: 1px solid #211709;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 0 0 12px;
+}
+@media(max-width:1200px) {
+  h1 {
+    font-size: 1.9em;
+    margin: 72px 0 52px;
+  }
+  .plr20 {
+    font-size: 19px;
+    padding: 0px 132px;
+    margin: 0px 15px;
+  }
+  .plr21 {
+    font-size: 19px;
+    padding: 30px 164px 10px;
+    margin: 12px 15px 0;
+  }
+}
+@media(max-width: 992px) {
+  .center{
+        margin-top: 132px;
+  }
+  h1 {
+    margin: 60px 0 46px;
+  }
+  .plr20 {
+    font-size: 18px;
+    padding: 0px 60px;
+  }
+  .plr21 {
+    font-size: 18px;
+    padding: 30px 99px 10px;
+  }
+  body{
+    height:1024px;
+  }
+}
+@media (max-width: 767px) {
+  h1 {
+    margin: 60px 0 38px;
+  }
+  .plr20 {
+    font-size: 16px;
+  }
+  .plr21 {
+    font-size: 16px;
+    padding: 30px 30px 10px;
+  }
+}
+@media (max-width: 480px) {
+  .center {
+    margin-top: 0px;
+  }
+  h1 {
+    margin: 50px 0 30px;
+    font-size: 1.3em;
+  }
+  .plr20 {
+    font-size: 14px;
+    padding: 0px;
+  }
+  .plr21 {
+    font-size: 14px;
+    padding: 30px 0px 10px;
+  }
+  img {
+    width: 300px;
+  }
+  body{
+    height:694px;
+  }
+}
